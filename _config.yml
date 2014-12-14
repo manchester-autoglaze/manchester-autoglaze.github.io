@@ -1,0 +1,20 @@
+baseurl: /Manchester-AutoGlaze
+exclude: ['node_modules', 'dist', 'src']
+permalink: ":title.html"
+prose:
+  rooturl: '_posts'
+  metadata:
+    _posts:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""

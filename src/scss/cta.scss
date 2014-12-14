@@ -1,0 +1,61 @@
+.phoneNumber{
+	display: block;
+	width: 100%;
+	text-align: right;
+	font-size: 23px;
+	color: $black;
+	.fa-phone{
+		color: $secondary;
+	}
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+
+	&:hover{
+		color: $black;
+	}
+}
+
+.quoteButton{
+	display: block;
+	width: 100%;
+	float: right;
+	background: $secondary;
+	color: $white;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 1;
+	&:hover{
+		color: $white;
+	}
+}
+
+.quoteButton-large{
+	height: 80px;
+	font-size: 2.2em;
+}
+
+.quoteButton-largeThin{
+	width: 300px;
+	height: 40px;
+	font-size: 1.4em;
+}
+.quoteButton-footer{
+	float: left;
+	margin-top: 20px;
+}
+.phoneNumber-header{
+
+}
+.phoneNumber-footer{
+	text-align: left;
+}
+
+@media (min-width: $screen-sm-min){
+	.phoneNumber{
+		font-size: 30px;
+	}
+	.quoteButton-large{
+		width: 300px;
+	}
+}

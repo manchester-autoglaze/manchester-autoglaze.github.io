@@ -1,0 +1,48 @@
+.linkbar{
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+.linkbar_links{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.linkbar_item{
+	float: left;
+	margin: 0 10px 0 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 1em;
+	a{
+		color: $black;
+	}
+}
+
+.header_logo{
+	background-image: url('../img/logoDefault.png');
+	background-repeat: no-repeat;
+	height: 40px;
+	background-size: 100%;
+	padding: 10px;
+	margin: 5px 0 0 0;
+}
+
+@media (min-width: $screen-xs-min){
+	.header_logo{
+		height: 80px;
+	}
+}
+
+@media (min-width: $screen-sm-min){
+	.header_logo{
+		width: 250px;
+		margin: 10px 0 0 0;
+		padding: 0;
+	}
+	.linkbar_item{
+		font-size: 1.4em;
+	}
+}

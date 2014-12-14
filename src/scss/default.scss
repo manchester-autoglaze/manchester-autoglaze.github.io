@@ -1,0 +1,87 @@
+@import "bootstrap";
+@import "bourbon/bourbon";
+
+
+$white: #FFFDFC;
+$black: #000;
+
+$primary: #25265C;
+$secondary: #FF321D;
+$tertiary: #5872FF;
+$quat: #1A32B2;
+
+body{
+	background: $white;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+h1{
+
+}
+h2{
+	font-size: 40px;
+}
+h3{
+	font-size: 29px;
+}
+
+.faBlock{
+	display: block;
+}
+
+.trustBar{
+
+}
+.trustBar_item{
+	float: right;
+}
+
+address{
+	margin-top: 15px;
+	text-align: right;
+}
+
+.contentSection{
+	padding: 20px 0;
+}
+.contentSection-off{
+	background: #EDEDED;
+}
+.contentSection-int{
+	background-image: url('../img/skyline.jpg');
+	height: 300px;
+	color: $white;
+	h2{
+		font-size: 30px;
+	}
+}
+.step{
+	height: 180px;
+	position: relative;
+	margin: 0 0 30px 0;
+}
+
+footer{
+	margin: 30px 0 0 0;
+}
+
+@media (min-width: $screen-sm-min){
+	.contentSection{
+		padding: 50px 0;
+	}
+	.contentSection-int h2{
+		font-size: 40px;
+	}
+	.step{
+		margin: 0;
+	}
+}
+
+@import "header";
+@import "cta";
+@import "jumbotron";
