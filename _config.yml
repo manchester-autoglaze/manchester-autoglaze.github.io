@@ -1,4 +1,4 @@
-baseurl: /Manchester-AutoGlaze
+baseurl: 
 exclude: ['node_modules', 'dist', 'src']
 permalink: ":title.html"
 prose:
